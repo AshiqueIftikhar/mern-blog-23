@@ -18,6 +18,7 @@ function App() {
           <Route path="/articles/:name" element={<Article />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+
       </div>
     </BrowserRouter>
   );
